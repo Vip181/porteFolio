@@ -1,0 +1,158 @@
+
+.page1{
+    height: 800px ;
+    background-color: aliceblue;
+}
+.nav
+{
+   
+    margin-top: 0px;
+    height: 30px;
+    background-color: #333;
+}
+
+.homPage1{
+   
+   padding-top: 40px;
+    height: 1000px;
+    background-color: beige;
+}
+
+.page2{
+    height: 1000px;
+    background-color: burlywood;
+}
+.page3{
+    color:rgb(0, 0, 0);
+    height: 1000px;
+    background-color: rgb(214, 171, 79);
+}
+.page4{
+    height: 1000px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(209, 193, 159);
+}
+.page5{
+    height: 1000px;
+    background-color: rgb(138, 110, 51);
+}
+.page6{
+    height: 2000px;
+    background-color: rgb(196, 142, 26);
+}
+.page7{
+    height: 3000px;
+    background-color: rgb(218, 175, 83);
+}
+.page8{
+    height: 3000px;
+    background-color: rgb(145, 100, 2);
+}
+.page9{
+    height: 200px;
+    background-color: rgb(192, 167, 114);
+    
+}
+
+.contacte
+{
+    color: white ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    ;
+}
+.textAligne{
+    text-align: center;
+
+}
+.photo11{
+padding-top: 10;
+}
+.entreprise
+{
+    color: blanchedalmond;
+     padding-top:  25px;
+     font-size: 10;
+}
+.entreprise1
+{
+    color: rgb(0, 0, 0);
+     padding-top:  25px;
+     font-size: 10;
+}
+.word {
+    
+   
+    margin-top: 60px;
+    color: rgb(0, 0, 0);
+    font: 700 normal 2.5em 'tahoma';
+   
+  }
+  .photoID {
+  
+    position: static;
+   margin-left: 50px;
+   margin-top: 20px;
+     /*clip-path:ellipse(33% 50%);*/
+     border: rgb(255, 255, 255) 5px solid;
+     border-radius: 70% 70% 70% 70%;
+     box-shadow: 8px 8px 0px #aaa;
+      
+     
+   }
+  .paralaravelsymphonie
+  {
+    font-size: 24px;
+    color: black;
+  }
+   .page10
+   {
+    
+    height: 2000px;
+    background-color: rgb(192, 167, 114);
+    
+   }
+   
+   .imgcab
+   {
+    height: 50%;
+    width: 50%;
+   }
+   .photostage1
+   {
+    padding-top: 50px;
+    height: 50%; 
+    width: 50%;
+   }
+
+   .Taille-Text-stage-1
+   {
+    margin: 10px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .paragarpheStage1{
+    font-size: 20px ;
+   }
+   h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}

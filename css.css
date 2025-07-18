@@ -1,0 +1,267 @@
+/*Style généraux*/	
+body {
+	
+	padding: 0;
+	
+	font: .8em Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+
+}
+
+
+body, h1, h2{
+	margin: 0;
+}
+
+
+#conteneur {
+	width: 720px;
+	margin: 0px auto 0 auto;
+	padding: 0px;
+	background-color: #333;
+}
+
+
+/*L'en-tête*/
+
+
+
+/*Contenu principal*/
+#contenu {
+	float: left;
+	width: 520px;
+	padding: 5px;
+	border: 1px solid;
+}
+
+
+
+/*La colonne latérale*/
+#sidebar {
+	float: right;
+	width: 170px;
+	margin: 0 0 0 5px;
+	padding: 5px;
+	background-color: #333;
+}
+#sidebar h2 {
+	text-align: center;
+}
+#sidebar p {
+	text-align: center;
+}
+
+
+/*Le pied de page*/
+#pied-de-page {
+	padding: 5px;
+	background-color: #333;
+	clear: both;
+}
+#pied-de-page {
+	text-align: center;
+	font-size: .75em;
+}
+	
+	/* MES STYLES !!*/
+
+	/* ACCUEIL !!*/
+.hello {
+	width: 90%;
+	
+}
+
+.first {
+	float: left;		/* positionné par rapport à la gauche */
+  	width: 30%;		/* occupera 30% de la largeur de la page */
+  	margin-left: 1em;	/* marge externe gauche 1 espace standard */
+  	margin-right: 0em; /* marge externe droite 0 espace standard */ 
+  	padding: 0.5em; /* marge interne  entre le texte et la bordure de colonne */
+}
+
+
+.diapo {
+	font-size: 1.00em;					/* taille standard */
+	color: #fffafa;						/* noir */
+	text-align: justify;				/* aligné à gauche et à droite comme dans un journal */ 
+	text-decoration: none;	
+	z-index: 2 ;
+}
+
+	
+	#menu, #menu ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		z-index: 2 ;
+	}
+	
+	#menu {
+		width: 960px;
+		margin: 0px auto;
+		background-color: #333;
+    border-radius: 5px 5px;
+	max-height: 28px;
+	z-index: 2 ;
+	}
+	
+	
+	#menu:before,
+	#menu:after {
+		content: "";
+		display: table;
+	}
+	
+	#menu:after {
+		clear: both;
+	}
+	
+	#menu {
+		zoom:1;
+	}
+	
+	#menu li {
+		float: left;
+		
+	
+		position: relative;
+	}
+	
+	#menu a {
+		float: left;
+		padding: 8px 30px;
+		color: rgba(255, 255, 255, 0.637);
+		text-transform: uppercase;
+		
+		text-decoration: none;
+		
+	}
+	
+	#menu li:hover > a {
+		color: #000000;
+		border-radius: 5px 5px;
+		background-color: #9b9175;
+		height: 2px;
+		filter: drop-shadow( 8px 8px 8px 8px  rgb(134, 143, 196));
+	}
+	
+*html #menu li a:hover { /* IE6 only */
+		color: #003cff;
+		filter: drop-shadow( 8px 8px 8px 8px  rgb(75, 93, 194));
+	}
+	
+	#menu ul {
+		margin: 0px;
+		_margin: 0; /*IE6 only*/
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+		top: 38px;
+		left: 0;
+		z-index: 1;    
+		
+		background-color: rgb(92, 59, 59);
+    border: rgb(109, 46, 46) 1px solid;
+    border-radius: 5px 5px;
+		
+	}
+
+	#menu li:hover > ul {
+		opacity: 1;
+		visibility: visible;
+		margin: 0;
+	}
+	
+	#menu ul ul {
+		z-index: -1; 
+		top: 0;
+		left: 150px;
+		-moz-box-shadow: -1px 0 0 rgba(255, 255, 255, 0.3);
+		-webkit-box-shadow: -1px 0 0 rgba(255, 255, 255, 0.3);
+		box-shadow: -1px 0 0 rgba(255, 255, 255, 0.3);		
+	}
+	
+	#menu ul li {
+		float: none;
+		display: block;
+		border: 0;
+		_line-height: 0; /*IE6 only*/
+		-moz-box-shadow: 0 1px 0 rgb(255, 255, 255), 0 2px 0 #666;
+		-webkit-box-shadow: 0 1px 0 rgb(255, 255, 255), 0 2px 0 #666;
+		box-shadow: 0 1px 0 rgb(255, 255, 255), 0 2px 0 #666;
+	}
+	
+	#menu ul li:last-child {   
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;    
+	}
+	
+	#menu ul a { 
+		 z-index: -1;   
+		padding: 10px;
+		width: 130px;
+		height: 10px; /*IE6 only*/
+		display: block;
+		white-space: nowrap;
+		float: none;
+		text-transform: none;
+		
+	}
+	
+	#menu ul a:hover {
+		z-index: -1; 
+		
+	}
+	
+	#menu ul li:first-child > a {
+		z-index: -1; 
+		-moz-border-radius: 3px 3px 0 0;
+		-webkit-border-radius: 3px 3px 0 0;
+		border-radius: 3px 3px 0 0;
+	}
+	
+	#menu ul li:first-child > a:after {
+		z-index: -1; 
+		content: '';
+		position: absolute;
+		left: 40px;
+		top: -6px;
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-bottom: 6px solid rgb(68, 68, 68);
+	}
+	
+	#menu ul ul li:first-child a:after {
+		left: -6px;
+		top: 50%;
+		margin-top: -6px;
+		border-left: 0;	
+		border-bottom: 6px solid transparent;
+		border-top: 6px solid transparent;
+		border-right: 6px solid #3b3b3b;
+	}
+	
+	#menu ul li:first-child a:hover:after {
+		border-bottom-color: #556166; 
+	}
+	
+	#menu ul ul li:first-child a:hover:after {
+		border-right-color: #717577; 
+		border-bottom-color: transparent; 	
+	}
+	
+	#menu ul li:last-child > a {
+		-moz-border-radius:3px 3px;
+		-webkit-border-radius:  3px 3px;
+		border-radius:  3px 3px;
+	}
+	#page {
+		margin : auto ;
+		padding : 0.1em;
+		width: 960px;
+		margin: 0px auto;
+	}
+
+
+
